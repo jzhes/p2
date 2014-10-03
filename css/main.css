@@ -8,7 +8,7 @@ body {
     background-image: url('../img/flowers.png');
     background-repeat: repeat;
 }
-
+ 
 #maincontent {
 	width: 800px;
 	margin-left: auto;
@@ -27,7 +27,6 @@ body {
 	display: inline-block;
 	width: 45%;
 	padding-left: 30px;
-
 }
 
 #rightcolumn{
@@ -43,6 +42,7 @@ body {
 	text-align: center;
 }
 
+/* make error message stand out */
 .error {
 	color: red;
 	font-size: 20px;
@@ -50,11 +50,11 @@ body {
 	text-align:	center;
 }
 
+/* center the image */
 img {
 	display:inline-block;
 	margin-left:auto;
 	margin-right:auto;
-
 }
 
 h1 {
@@ -84,6 +84,7 @@ label {
 	margin: 8px 0px;
 }
 
+/* make the password stand out */
 .password {
 	color: blue;
 	padding-left: 30px;
@@ -97,7 +98,7 @@ label {
 }
 
 #numwords {
-	width: 40px;
+	width: 30px;
 }
 	
 #submit {

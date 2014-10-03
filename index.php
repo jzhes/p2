@@ -4,11 +4,15 @@
 	<body>
 		<div id="maincontent">
 			<h1>Welcome to the xkcd Password Generator!</h1>
-			<?php require("logic.php"); ?>			
-			<?php if (isset($msg)): ?>
+			
+			<?php require("logic.php"); ?>	
+			
+			<!-- If there is an error with the user input, display it here -->
+			<?php if (isset($msg)): ?> 
 					<p class="error"><?php echo $msg ?></p>
 			<?php endif ?>			
 
+			<!-- If a password has been set, display it here -->
 			<?php if (isset($password)): ?>
 					<h2 class="pswdmsg">Your password is: <span class="password"><?=$password?></span></h2>
 			<?php endif ?>			
@@ -29,6 +33,8 @@
 
 			<div id="rightcolumn">
 				<h2>Generate a new password</h2>
+				
+				<!-- Get user input -->
 				<form action="index.php" method="POST">
 				
 					<label for="numwords">Number of words: </label>
