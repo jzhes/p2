@@ -1,0 +1,107 @@
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: gray;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    background-image: url('../img/flowers.png');
+    background-repeat: repeat;
+}
+
+#maincontent {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.error, .pswdmsg {
+	padding-left: 2%;
+}
+
+#leftcolumn{
+	display: inline-block;
+	width: 45%;
+	padding-left: 30px;
+
+}
+
+#rightcolumn{
+	display: inline-block;
+	width: 42%;
+	padding-left: 3%; 
+	padding-right: 30px;
+	text-align: center;
+	vertical-align:	top;	
+}
+
+#comic {
+	text-align: center;
+}
+
+.error {
+	color: red;
+	font-size: 20px;
+	font-family: georgian serif;
+	text-align:	center;
+}
+
+img {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+h1 {
+	text-align: center;
+	color: #2c3e45; 
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+h2, h3 {
+	font-size: 1.5em;
+}
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+	color: #2c3e45; 
+}
+
+#rightcolumn h2 {
+	padding-top: 80px; 
+}
+
+label {
+	margin: 8px 0px;
+}
+
+.password {
+	color: blue;
+	padding-left: 30px;
+	font-size: 1em;
+	font-family: courier new serif;
+	font-weight: bold;
+}
+
+.pswdmsg {
+	text-align: center;
+}
+
+#numwords {
+	width: 40px;
+}
+	
+#submit {
+	margin: 8px 0px;
+}
+
+
