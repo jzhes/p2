@@ -56,6 +56,5 @@
 				$password = join("-", $selected_words);
 			}
 		}
-	} 
-
+	}
 	

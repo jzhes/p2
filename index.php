@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<?php include("/includes/header.php"); ?>
+	<?php include("header.php"); ?>
 	<body>
 		<div id="maincontent">
 			<h1>Welcome to the xkcd Password Generator!</h1>
-			<?php require("/includes/logic.php"); ?>			
+			<?php require("logic.php"); ?>			
 			<?php if (isset($msg)): ?>
 					<p class="error"><?php echo $msg ?></p>
 			<?php endif ?>			
