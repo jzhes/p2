@@ -33,7 +33,6 @@ body {
 	display: inline-block;
 	width: 42%;
 	padding-left: 3%; 
-	padding-right: 30px;
 	text-align: center;
 	vertical-align:	top;	
 }
@@ -50,17 +49,9 @@ body {
 	text-align:	center;
 }
 
-/* center the image */
-img {
-	display:inline-block;
-	margin-left:auto;
-	margin-right:auto;
-}
-
 h1 {
 	text-align: center;
 	color: #2c3e45; 
-	font-size: 2em;
 	line-height: 1.5em;
 	margin-bottom: 30px;
 }
@@ -78,10 +69,6 @@ h2 {
 
 #rightcolumn h2 {
 	padding-top: 80px; 
-}
-
-label {
-	margin: 8px 0px;
 }
 
 /* make the password stand out */
