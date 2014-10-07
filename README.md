@@ -7,7 +7,7 @@
 xkcd Password Generator: Create a password generator, a form to collect user options for the password and display the results.
 
 ## Demo Information:
-http://screencast.com/t/uqQ5Hq3a0
+http://screencast.com/t/XzFTHDAopb
 
 ## Details for teaching team:
 I created a word list file by copying contents from 2 pages of 
