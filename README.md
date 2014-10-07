@@ -16,10 +16,8 @@ I created a word list file by copying contents from 2 pages of
 into a Word document and saving as a text file.
 
 
-
-
 ## Outside code
-
+N/A
 
 
 
